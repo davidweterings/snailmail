@@ -1,0 +1,12 @@
+{% extends "snailmail/base.html" %}
+
+{% block content %}
+    {% if message %}
+        {{ message }}
+    {% endif %}
+    <form method="post" action="{% url 'snailmail:receivedpost' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Submit"/>
+    </form>
+{% endblock %}

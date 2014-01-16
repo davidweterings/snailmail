@@ -1,0 +1,91 @@
+[
+    {
+        "model": "snailmail.snailuser",
+        "pk": 1,
+        "fields": {
+            "first_name": "1",
+            "last_name": "1",
+            "address": "street 1",
+            "zipcode": "1234AB",
+            "city": "city1",
+            "country": 1,
+            "country_prefs": [1],
+            "email": "1@1.nl"
+        }
+    },
+
+    {
+        "model": "snailmail.snailuser",
+        "pk": 2,
+        "fields": {
+            "first_name": "2",
+            "last_name": "2",
+            "address": "street 2",
+            "zipcode": "2234AB",
+            "city": "city2",
+            "country": 1,
+            "country_prefs": [1],
+            "email": "2@2.nl"
+        }
+    },
+
+    {
+        "model": "snailmail.snailuser",
+        "pk": 3,
+        "fields": {
+            "first_name": "3",
+            "last_name": "3",
+            "address": "street 3",
+            "zipcode": "3234AB",
+            "city": "city3",
+            "country": 1,
+            "country_prefs": [1, 2],
+            "email": "3@3.nl"
+        }
+    },
+
+    {
+        "model": "snailmail.snailuser",
+        "pk": 4,
+        "fields": {
+            "first_name": "4",
+            "last_name": "4",
+            "address": "street 4",
+            "zipcode": "4234AB",
+            "city": "city4",
+            "country_prefs": [1, 2],
+            "country": 1,
+            "email": "4@4.nl"
+        }
+    },
+
+    {
+        "model": "snailmail.snailuser",
+        "pk": 5,
+        "fields": {
+            "first_name": "5",
+            "last_name": "5",
+            "address": "street 5",
+            "zipcode": "5234AB",
+            "city": "city5",
+            "country_prefs": [2],
+            "country": 2,
+            "email": "5@5.nl"
+        }
+    },
+
+    {
+        "model": "snailmail.snailuser",
+        "pk": 6,
+        "fields": {
+            "first_name": "6",
+            "last_name": "6",
+            "address": "street 6",
+            "zipcode": "6234AB",
+            "city": "city6",
+            "country_prefs": [1],
+            "country": 2,
+            "email": "6@6.nl"
+        }
+    }
+]

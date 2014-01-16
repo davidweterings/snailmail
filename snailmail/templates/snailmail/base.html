@@ -1,0 +1,28 @@
+{% load i18n %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/css/style.css"/>
+    <title>{% block title %}Tante Jannie's Postkamer | Uit liefde voor SnailMail!{% endblock %}</title>
+</head>
+<body>
+<div id="menu">
+    <img src="{% static "snailmail/images/header.png" %}" alt="header"/>
+
+    {% block menubar %}
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/subscribe/">{% trans 'menu_subscribe' %}</a></li>
+            <li><a href="/sendpost/">{% trans 'menu_send_post' %}</a></li>
+            <li><a href="/receivedpost/">{% trans 'menu_received_post' %}</a></li>
+            <li><a target="_blank" href="http://tantejannie.blogspot.com/">{% trans 'menu_blog' %}</a></li>
+        </ul>
+    {% endblock %}
+</div>
+
+<div id="content">
+    {% block content %}{% endblock %}
+</div>
+</body>
+</html>

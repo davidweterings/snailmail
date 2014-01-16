@@ -1,0 +1,79 @@
+[
+
+    {
+        "model": "snailmail.posthistory",
+        "pk": 1,
+        "fields": {
+            "from_user": "1",
+            "to_user": "2",
+            "received_date": "2013-10-09 00:00:00",
+            "received": "0",
+            "message": "bla"
+        }
+    },
+
+
+    {
+        "model": "snailmail.posthistory",
+        "pk": 2,
+        "fields": {
+            "from_user": "2",
+            "to_user": "5",
+            "received_date": "2013-10-09 00:00:00",
+            "received": "1",
+            "message": "bla"
+        }
+    },
+
+
+    {
+        "model": "snailmail.posthistory",
+        "pk": 3,
+        "fields": {
+            "from_user": "3",
+            "to_user": "4",
+            "received_date": "2013-10-09 00:00:00",
+            "received": "1",
+            "message": "bla"
+        }
+    },
+
+
+    {
+        "model": "snailmail.posthistory",
+        "pk": 4,
+        "fields": {
+            "from_user": "4",
+            "to_user": "1",
+            "received_date": "2013-10-09 00:00:00",
+            "received": "1",
+            "message": "bla"
+        }
+    },
+
+
+    {
+        "model": "snailmail.posthistory",
+        "pk": 5,
+        "fields": {
+            "from_user": "5",
+            "to_user": "4",
+            "received_date": "2013-10-09 00:00:00",
+            "received": "1",
+            "message": "bla"
+        }
+    },
+
+
+    {
+        "model": "snailmail.posthistory",
+        "pk": 6,
+        "fields": {
+            "from_user": "3",
+            "to_user": "5",
+            "received_date": "2013-10-09 00:00:00",
+            "received": "1",
+            "message": "bla"
+        }
+    }
+]

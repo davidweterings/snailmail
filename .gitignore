@@ -1,0 +1,5 @@
+*.pyc
+.idea/*
+local_requirements.txt
+*.mo
+*.po

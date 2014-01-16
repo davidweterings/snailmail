@@ -1,0 +1,18 @@
+[
+    {
+        "model": "snailmail.country",
+        "pk": 1,
+        "fields": {
+            "name": "Netherlands",
+            "shortcut": "NL"
+        }
+    },
+    {
+        "model": "snailmail.country",
+        "pk": 2,
+        "fields": {
+            "name": "Belgium",
+            "shortcut": "BE"
+        }
+    }
+]
